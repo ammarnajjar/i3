@@ -4,7 +4,7 @@ This repo contains my i3 configurations.
 To install:
 
 ```bash
-wget install.sh && bash install.sh 
+wget https://github.com/ammarnajjar/i3/raw/master/install.sh && bash install.sh 
 
 ```
 Files in this repo:
