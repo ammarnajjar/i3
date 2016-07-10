@@ -9,7 +9,7 @@ function get_sudo() {
     fi
 }
 
-$SUDO dnf install i3 i3status i3lock xdotool zenity
+$SUDO dnf install -y i3 i3status i3lock xdotool zenity feh pavucontrol xdotool arandr
 $SUDO cp /usr/share/X11/xorg.conf.d/50-synaptics.conf /etc/X11/xorg.conf.d/
 git clone https://github.com/ammarnajjar/i3.git ~/.config/i3
 git clone git://github.com/vivien/i3blocks /tmp/i3blocks
