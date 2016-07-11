@@ -165,7 +165,7 @@ bar {
 }
 
 # Easy switch between languages with Alt + Shift
-exec --no-startup-id "setxkbmap -model pc105 -layout us,de,ar -option grp:alt_shift_toggle"
+exec_always --no-startup-id "setxkbmap -model pc105 -layout us,de,ar -option grp:alt_shift_toggle"
 exec_always --no-startup-id "setxkbmap -option caps:escape"
 
 bindsym --release $mod+p exec "sh ~/.config/i3/secret.sh"
