@@ -175,8 +175,8 @@ bindsym $mod+Shift+s exec "gvim ~/tmp/tmp.markdown"
 bindsym $mod+Shift+x exec "sh ~/.config/i3/shutdown.sh"
 
 # exec --no-startup-id terminal
-bindsym $mod+Return exec --no-startup-id "sh ~/.config/i3/terminal.sh -e tmux -2" 
-bindsym $mod+Shift+Return exec --no-startup-id "sh ~/.config/i3/terminal.sh"
+bindsym $mod+Shift+Return exec --no-startup-id "sh ~/.config/i3/terminal.sh -e tmux -2" 
+bindsym $mod+Return exec --no-startup-id "sh ~/.config/i3/terminal.sh"
 
 # enable touchpad
 exec_always --no-startup-id synclient TapButton1=1
