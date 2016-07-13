@@ -1,7 +1,7 @@
 #!/bin/sh
 
-urxvt256c "$@"
+urxvt256cc "$@"
 if [ $? -eq 2 ]; then
- urxvtd -q -o -f
- urxvt256c "$@"
+ urxvt256cd -q -o -f
+ urxvt256cc "$@"
 fi
